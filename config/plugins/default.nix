@@ -24,5 +24,6 @@
     ./project.nix
     ./toggleterm.nix
     ./treesitter.nix
+    ./copilot.nix
   ];
 }
