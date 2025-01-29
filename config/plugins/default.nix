@@ -25,5 +25,6 @@
     ./toggleterm.nix
     ./treesitter.nix
     ./copilot.nix
+    ./avante.nix
   ];
 }

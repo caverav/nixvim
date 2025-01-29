@@ -1,0 +1,7 @@
+{
+  plugins = {
+    avante = {
+      enable = true;
+    };
+  };
+}
