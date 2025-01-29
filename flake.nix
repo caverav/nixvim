@@ -28,7 +28,10 @@
         nixvimLib = nixvim.lib.${system};
         nixvim' = nixvim.legacyPackages.${system};
         nixvimModule = {
-          inherit pkgs;
+          pkgs = import inputs.nixpkgs {
+            system = system;
+            config.allowUnfree = true;
+          };
           module = import ./config; # import the module directly
           # You can use `extraSpecialArgs` to pass additional arguments to your module files
           extraSpecialArgs = {
