@@ -9,15 +9,15 @@
       # css = ["eslint_d"];
       gitcommit = ["commitlint"];
       go = ["golangcilint"];
-      # javascript = ["eslint_d"];
-      # javascriptreact = ["eslint_d"];
+      javascript = ["eslint_d"];
+      javascriptreact = ["eslint_d"];
       json = ["jsonlint"];
       lua = ["luacheck"];
       nix = ["nix"];
       python = ["ruff"];
-      # sh = ["shellcheck"];
-      # typescript = ["eslint_d"];
-      # typescriptreact = ["eslint_d"];
+      sh = ["shellcheck"];
+      typescript = ["eslint_d"];
+      typescriptreact = ["eslint_d"];
       yaml = ["yamllint"];
     };
     linters = {
