@@ -107,7 +107,7 @@
           action = "resume";
           options.desc = "Resume";
         };
-        "<leader>fg" = {
+        "<leader>fw" = {
           action = "live_grep";
           options.desc = "Recent";
         };
