@@ -105,7 +105,7 @@
     marksman
     # Linters
     commitlint
-    # eslint_d
+    eslint_d
     golangci-lint
     hadolint
     # html-tidy
@@ -114,7 +114,7 @@
     nodePackages.jsonlint
     pylint
     ruff
-    # shellcheck
+    shellcheck
     vale
     yamllint
   ];
