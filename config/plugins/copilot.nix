@@ -1,7 +1,7 @@
 {
   plugins = {
     copilot-vim = {
-      enable = true;
+      enable = false;
     };
   };
 }
