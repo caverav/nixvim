@@ -42,6 +42,7 @@
           {name = "luasnip";}
           {name = "buffer";}
           {name = "path";}
+          {name = "copilot";}
           {name = "crates";}
         ];
         mapping = {
