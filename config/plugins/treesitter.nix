@@ -14,7 +14,6 @@
         python
         rust
         c
-        c_sharp
         cpp
         regex
         gitcommit
