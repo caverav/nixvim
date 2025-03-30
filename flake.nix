@@ -30,7 +30,11 @@
         nixvimModule = {
           pkgs = import inputs.nixpkgs {
             system = system;
-            config.allowUnfree = true;
+	    config = {
+	      allowUnfree = true;       # Allow unfree packages
+	      allowBroken = true;       # Allow broken packages
+	      allowUnsupportedSystem = true; # Allow packages not marked for your system
+	    };
           };
           module = import ./config; # import the module directly
           # You can use `extraSpecialArgs` to pass additional arguments to your module files
