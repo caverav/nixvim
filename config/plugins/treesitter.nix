@@ -24,7 +24,6 @@
         lua
         toml
         yaml
-        zig
       ];
       settings = {
         incremental_selection.enable = true;
