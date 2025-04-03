@@ -56,7 +56,7 @@
     markdown-preview.enable = true;
     tmux-navigator.enable = true;
     zellij = {
-      enable = true;
+      enable = false;
       settings = {
         vimTmuxNavigatorKeybinds = true;
       };
@@ -71,7 +71,7 @@
     };
   };
   extraPlugins = with pkgs.vimPlugins; [
-    vim-be-good
+    # vim-be-good
     nui-nvim
   ];
   extraPackages = with pkgs; [
@@ -94,11 +94,11 @@
     stylua
     # Debuggers / misc deps
     asm-lsp
-    bashdb
+    # bashdb
     # clang-tools
     delve
     fd
-    gdb
+    # gdb
     go
     # lldb_17
     llvmPackages_17.bintools-unwrapped
