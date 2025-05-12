@@ -9,6 +9,7 @@
     ./cursorline.nix
     ./dap.nix
     # ./flash.nix
+    ./vimtex.nix
     ./format.nix
     ./git.nix
     ./hop.nix
