@@ -25,8 +25,8 @@
     ./project.nix
     ./toggleterm.nix
     ./treesitter.nix
-    ./copilot.nix
-    ./copilot-cmp.nix
+    # ./copilot.nix
+    # ./copilot-cmp.nix
     ./avante.nix
   ];
 }
