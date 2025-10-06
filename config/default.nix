@@ -101,7 +101,7 @@
     gdb
     go
     # lldb_17
-    llvmPackages_17.bintools-unwrapped
+    # llvmPackages_17.bintools-unwrapped
     marksman
     # Linters
     commitlint
